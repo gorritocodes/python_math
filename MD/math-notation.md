@@ -2,6 +2,13 @@
 
 this is for me to learn how to write mah notation in Markdown.
 
+## White Space
+
+```math
+\text{this is a way to express regular text. is very useful for unit notations} \\
+\text{to write the equivalent of an 'enter' you'll use doble inverted / you can also add brackets with a measurement to add more space.  }
+```
+
 ## Operators
 
 ### addition
