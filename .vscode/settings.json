@@ -5,7 +5,9 @@
         "arcsin",
         "arctan",
         "binom",
+        "BODMAS",
         "infty",
-        "mathrm"
+        "mathrm",
+        "PEMDAS"
     ]
 }
