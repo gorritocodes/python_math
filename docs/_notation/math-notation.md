@@ -29,21 +29,21 @@ There are many operators in mathematics:
 
 ### Arithmetic Operators
 
-| Operator       | Command                                                   |
-| -------------- | --------------------------------------------------------- |
-| addition       | $`a + b`$                                                 |
-| subtraction    | $`a - b`$                                                 |
-| multiplication | $`a \times b \text{ or } a \cdot b \text{ and } a b`$     |
-| division       | $`a / b \text{ or } a \div b \ \text{ and } \frac{a}{b}`$ |
-| square root    | $`\sqrt{a}`$                                              |
-| nth root       | $`\sqrt[n]{a}`$                                           |
-| exponent       | $`a^n \text{ or } a^{n + 1}`$                             |
-| logarithm      | $`\log(a) \text{ or } \ln(a) \text{ and } \log_n(a)`$     |
-| subscript      | $`a_{n} \text{ or } a_n`$                                 |
-| superscript    | $`a^{n} \text{ or } a^n`$                                 |
-| evaluation     | $`\|_{n=17} f(n)`$                                        |
-| factorial      | $`a!             `$                                       |
-| binomial       | $`{n} \choose {n}{k} \text{ or } \binom{n}{k}`$           |
+| Operator       | Command                                                 | Script                                |
+| -------------- | ------------------------------------------------------- | ------------------------------------- |
+| addition       | $a + b$                                                 | `a + b`                               |
+| subtraction    | $a - b$                                                 | `a - b`                               |
+| multiplication | $a \times b \text{ or } a \cdot b \text{ and } a b $    | `a \times b`, `a \cdot b`, `a b`      |
+| division       | $a / b \text{ or } a \div b \ \text{ and } \frac{a}{b}$ | `a / b`, `a \div b`, `\frac{a}{b}`    |
+| square root    | $\sqrt{a}$                                              | `\sqrt{a}`                            |
+| nth root       | $\sqrt[n]{a}$                                           | `\sqrt[n]{a}`                         |
+| exponent       | $a^n \text{ or } a^{n + 1}$                             | `a^n`, `a^{n + 1}`                    |
+| logarithm      | $\log(a) \text{ or } \ln(a) \text{ and } \log_n(a)$     | `\log(a)`, `\ln(a)`, `\log_n(a)`      |
+| subscript      | $a_{n} \text{ or } a_n$                                 | `a_{n}`, `a_n`                        |
+| superscript    | $a^{n} \text{ or } a^n$                                 | `a^{n}`, `a^n`                        |
+| evaluation     | $\|_{n=17} f(n)$                                        | `\|_{n=17} f(n)`                      |
+| factorial      | $a! $                                                   | `a!`                                  |
+| binomial       | ${n} \choose {n}{k }$ $\binom{n}{k}$                    | `${n} \choose {n}{k}`, `\binom{n}{k}` |
 
 ### Trigonometric operators
 
@@ -68,17 +68,17 @@ There are many operators in mathematics:
 
 comparison and logical operators
 
-| Operator                 | Command       |
-| ------------------------ | ------------- |
-| equality                 | $`a = b`$     |
-| inequality               | $`a \neq b`$  |
-| less than                | $`a < b`$     |
-| greater than             | $`a > b`$     |
-| less than or equal to    | $`a \leq b`$  |
-| greater than or equal to | $`a \geq b`$  |
-| logical and              | $`a \land b`$ |
-| logical or               | $`a \lor b`$  |
-| logical not              | $`a \lnot b`$ |
+| Operator                 | Command     | Script      |
+| ------------------------ | ----------- | ----------- |
+| equality                 | $a = b$     | `a = b`     |
+| inequality               | $a \neq b$  | `a \neq b`  |
+| less than                | $a < b$     | `a < b`     |
+| greater than             | $a > b$     | `a > b`     |
+| less than or equal to    | $a \leq b$  | `a \leq b`  |
+| greater than or equal to | $a \geq b$  | `a \geq b`  |
+| logical and              | $a \land b$ | `a \land b` |
+| logical or               | $a \lor b$  | `a \lor b`  |
+| logical not              | $a \lnot b$ | `a \lnot b` |
 
 ### Custom operators
 
@@ -129,22 +129,22 @@ backslash:
 
 ## Other symbols
 
-| Symbol name | Symbol       | Script     |
-| ----------- | ------------ | ---------- |
-| forall      | $`\forall`$  | `\forall`  |
-| in          | $`\in`$      | `\in`      |
-| quad        | $`\quad`$    | `\quad`    |
-| exists      | $`\exists`$  | `\exists`  |
-| geq         | $`\geq`$     | `\geq`     |
-| leq         | $`\leq`$     | `\leq`     |
-| partial     | $`\partial`$ | `\partial` |
-| eth         | $`\eth`$     | `\eth`     |
-| hbar        | $`\hbar`$    | `hbar`     |
-| imath       | $`\imath`$   | `imath`    |
-| jmath       | $`\ell`$     | `\ell`     |
-| re          | $`\Re`$      | `\Re`      |
-| Im          | $`\Im`$      | `\Im`      |
-| wp          | $`\wp`$      | `\wp`      |
-| nabla       | $`\nabla`$   | `\nabla`   |
-| Box         | $`\Box`$     | `\Box`     |
-| infinity    | $`\infty`$   | `\infty`   |
+| Symbol name | Symbol     | Script     |
+| ----------- | ---------- | ---------- |
+| forall      | $\forall$  | `\forall`  |
+| in          | $\in$      | `\in`      |
+| quad        | $\quad$    | `\quad`    |
+| exists      | $\exists$  | `\exists`  |
+| geq         | $\geq$     | `\geq`     |
+| leq         | $\leq$     | `\leq`     |
+| partial     | $\partial$ | `\partial` |
+| eth         | $\eth$     | `\eth`     |
+| hbar        | $\hbar$    | `hbar`     |
+| imath       | $\imath$   | `imath`    |
+| jmath       | $\ell$     | `\ell`     |
+| re          | $\Re$      | `\Re`      |
+| Im          | $\Im$      | `\Im`      |
+| wp          | $\wp$      | `\wp`      |
+| nabla       | $\nabla$   | `\nabla`   |
+| Box         | $\Box$     | `\Box`     |
+| infinity    | $\infty$   | `\infty`   |
