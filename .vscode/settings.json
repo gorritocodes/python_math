@@ -1,3 +1,11 @@
 {
-    "cSpell.words": ["mathrm"]
+    "cSpell.words": [
+        "arccos",
+        "arccot",
+        "arcsin",
+        "arctan",
+        "binom",
+        "infty",
+        "mathrm"
+    ]
 }
