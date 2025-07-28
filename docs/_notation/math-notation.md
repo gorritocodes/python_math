@@ -29,40 +29,40 @@ There are many operators in mathematics:
 
 ### Arithmetic Operators
 
-| Operator       | Command                                                 | Script                                |
-| -------------- | ------------------------------------------------------- | ------------------------------------- |
-| addition       | $a + b$                                                 | `a + b`                               |
-| subtraction    | $a - b$                                                 | `a - b`                               |
-| multiplication | $a \times b \text{ or } a \cdot b \text{ and } a b $    | `a \times b`, `a \cdot b`, `a b`      |
-| division       | $a / b \text{ or } a \div b \ \text{ and } \frac{a}{b}$ | `a / b`, `a \div b`, `\frac{a}{b}`    |
-| square root    | $\sqrt{a}$                                              | `\sqrt{a}`                            |
-| nth root       | $\sqrt[n]{a}$                                           | `\sqrt[n]{a}`                         |
-| exponent       | $a^n \text{ or } a^{n + 1}$                             | `a^n`, `a^{n + 1}`                    |
-| logarithm      | $\log(a) \text{ or } \ln(a) \text{ and } \log_n(a)$     | `\log(a)`, `\ln(a)`, `\log_n(a)`      |
-| subscript      | $a_{n} \text{ or } a_n$                                 | `a_{n}`, `a_n`                        |
-| superscript    | $a^{n} \text{ or } a^n$                                 | `a^{n}`, `a^n`                        |
-| evaluation     | $\|_{n=17} f(n)$                                        | `\|_{n=17} f(n)`                      |
-| factorial      | $a! $                                                   | `a!`                                  |
-| binomial       | ${n} \choose {n}{k }$ $\binom{n}{k}$                    | `${n} \choose {n}{k}`, `\binom{n}{k}` |
+| Operator       | Command                                       | Script                             |
+| -------------- | --------------------------------------------- | ---------------------------------- |
+| addition       | $a + b$                                       | `a + b`                            |
+| subtraction    | $a - b$                                       | `a - b`                            |
+| multiplication | $a \times b $ or $ a \cdot b $ and $a b$      | `a \times b`, `a \cdot b`, `a b`   |
+| division       | $a / b $ or $ a \div b \ $ and $ \frac{a}{b}$ | `a / b`, `a \div b`, `\frac{a}{b}` |
+| square root    | $\sqrt{a}$                                    | `\sqrt{a}`                         |
+| nth root       | $\sqrt[n]{a}$                                 | `\sqrt[n]{a}`                      |
+| exponent       | $a^n $ or $a^{n + 1}$                         | `a^n`, `a^{n + 1}`                 |
+| logarithm      | $\log(a) $ or $ \ln(a) $ and $ \log_n(a)$     | `\log(a)`, `\ln(a)`, `\log_n(a)`   |
+| subscript      | $a_{n} $ or $ a_n$                            | `a_{n}`, `a_n`                     |
+| superscript    | $a^{n} $  or $ a^n$                           | `a^{n}`, `a^n`                     |
+| evaluation     | $\|_{n=17} f(n)$                              | `\|_{n=17} f(n)`                   |
+| factorial      | $a! $                                         | `a!`                               |
+| binomial       | ${n} \choose {k}$ or $\binom{n}{k}$           | `${n} \choose {k}`, `\binom{n}{k}` |
 
 ### Trigonometric operators
 
-| Symbol name | Symbol      | Script    |
-| ----------- | ----------- | --------- |
-| sine        | $`\sin`$    | `\sin`    |
-| cosine      | $`\cos`$    | `\cos`    |
-| tangent     | $`\tan`$    | `\tan`    |
-| cotangente  | $\cot$      | \cot      |
-| arc sine    | $`\arcsin`$ | `\arcsin` |
-| arc cos     | $`\arccos`$ | `\arccos` |
-| arctan      | $`\arctan`$ | `\arctan` |
-| arc cot     | $`arccot`$  | `arccot`  |
-| sinh        | $`\sinh`$   | `\sinh`   |
-| cosh        | $`\cosh`$   | `\cosh`   |
-| tanh        | $`\tanh`$   | `\tanh`   |
-| coth        | $`\coth`$   | `\coth`   |
-| sec         | $`\sec`$    | `\sec`    |
-| csc         | $`\csc`$    | `\csc`    |
+| Symbol name | Symbol    | Script    |
+| ----------- | --------- | --------- |
+| sine        | $\sin$    | `\sin`    |
+| cosine      | $\cos$    | `\cos`    |
+| tangent     | $\tan$    | `\tan`    |
+| cotangente  | $\cot$    | `\cot`    |
+| arc sine    | $\arcsin$ | `\arcsin` |
+| arc cos     | $\arccos$ | `\arccos` |
+| arctan      | $\arctan$ | `\arctan` |
+| arc cot     | $arccot$  | `arccot`  |
+| sinh        | $\sinh$   | `\sinh`   |
+| cosh        | $\cosh$   | `\cosh`   |
+| tanh        | $\tanh$   | `\tanh`   |
+| coth        | $\coth$   | `\coth`   |
+| sec         | $\sec$    | `\sec`    |
+| csc         | $\csc$    | `\csc`    |
 
 ### Other Operators
 
@@ -100,51 +100,51 @@ backslash:
     different versions. The alternate, or variant version is created by adding
     "var" before the name of the letter:
 
-| Greek Letter             | Symbol                                             | Script                                            |
-| ------------------------ | -------------------------------------------------- | ------------------------------------------------- |
-| Alpha                    | $`\Alpha \text{ and } \alpha`$                     | `A`, `\Alpha` and`\alpha`                         |
-| Beta                     | $`\Beta \ B \text{ and } \beta`$                   | `B` , `\Beta` and `\beta`                         |
-| Gamma                    | $`\Gamma \text{ and } \gamma`$                     | `\Gamma` and `\gamma`                             |
-| Delta                    | $`\Delta \text{ and } \delta`$                     | `\Delta` and `\delta`                             |
-| Epsilon and Varepsilon   | $`\Epsilon \ , \epsilon \text{ and } \varepsilon`$ | `E`, `\Epsilon` and `\epsilon` also `\varepsilon` |
-| Zeta                     | $`\Zeta \text{ and } \zeta`$                       | `Z` , `\Zeta` and `\zeta`                         |
-| Eta                      | $` \Eta \text{ and } \eta `$                       | `H` , `\Eta` and `\eta`                           |
-| Theta and Vartheta       | $`\Theta \ , \ \theta \text{ and } \vartheta`$     | `\Theta` and `\theta` also `\vartheta`            |
-| Iota                     | $`\Iota \text{ and } \iota `$                      | `I` , `\Iota` and `\iota`                         |
-| Kappa $`K`$ and Varkappa | $`\Kappa \ , \kappa \text{ and } \varkappa `$      | `K` , `\Kappa`, `\kappa` also `\varkappa`         |
-| Lambda                   | $` \Lambda \text{ and } \lambda`$                  | `\Lambda` and `\lambda`                           |
-| Mu                       | $`\Mu \text{ and } \mu `$                          | `M`, `\Mu` and `\mu`                              |
-| Nu                       | $`\Nu \text{ and } \nu`$                           | `N`, `\Nu` and `\nu`                              |
-| Xi                       | $`\Xi \text{ and } \xi`$                           | `\Xi` and `\xi`                                   |
-| Omicron                  | $`O \text{ and } o`$                               | `O` and `o`                                       |
-| Pi and Varpi             | $` \Pi \ , \ \pi \text{ and } \varpi `$            | `\Pi` and `\pi` also `\vapi`                      |
-| Rho $`P`$ and Varrho     | $`\Rho \ , \ \rho \text{ and } \varrho `$          | `P`, `\Rho` and `\rho` also `\varrho`             |
-| Sigma and Varsigma       | $`\Sigma \ , \ \sigma \text{ and } \varsigma`$     | `\Sigma` and `\sigma` also `\varsigma`            |
-| Tau                      | $`\Tau \text{ and } \tau `$                        | `T`, `\Tau` and `\tau`                            |
-| Upsilon $`Y`$            | $` Y \ , \ \Upsilon \text{ and } \upsilon `$       | `Y`, `\Upsilon` and `\upsilon`                    |
-| Phi and Varphi           | $`\Phi , \ \phi \text{ and } \varphi `$            | `\Phi` and `\phi` also `\varphi`                  |
-| Chi                      | $`\Chi \text{ and } \chi`$                         | `X`,`\Chi` and `chi`                              |
-| Psi                      | $`\Psi \text{ and }\psi `$                         | `\Psi` and `\psi`                                 |
-| Omega                    | $`\Omega \text{ and } \omega`$                     | `\Omega` and `\omega`                             |
+| Greek Letter           | Symbol                                        | Script                                            |
+| ---------------------- | --------------------------------------------- | ------------------------------------------------- |
+| Alpha                  | $\Alpha$ and $ \alpha$                        | `A`, `\Alpha` and`\alpha`                         |
+| Beta                   | $\Beta $ , $ B $  and $ \beta$                | `B` , `\Beta` and `\beta`                         |
+| Gamma                  | $\Gamma$ and $ \gamma $                       | `\Gamma` and `\gamma`                             |
+| Delta                  | $\Delta $ and $ \delta$                       | `\Delta` and `\delta`                             |
+| Epsilon and Varepsilon | $\Epsilon $ , $ \epsilon $ and $ \varepsilon$ | `E`, `\Epsilon` and `\epsilon` also `\varepsilon` |
+| Zeta                   | $\Zeta $ and $ \zeta$                         | `Z` , `\Zeta` and `\zeta`                         |
+| Eta                    | $\Eta $ and $ \eta $                          | `H` , `\Eta` and `\eta`                           |
+| Theta and Vartheta     | $\Theta $ , $ \theta $ and $ \vartheta$       | `\Theta` and `\theta` also `\vartheta`            |
+| Iota                   | $\Iota $ and $\iota $                         | `I` , `\Iota` and `\iota`                         |
+| Kappa and Varkappa     | $K$ ,$\Kappa $, $ \kappa $ and $ \varkappa $  | `K` , `\Kappa`, `\kappa` also `\varkappa`         |
+| Lambda                 | $ \Lambda $ and $ \lambda$                    | `\Lambda` and `\lambda`                           |
+| Mu                     | $M$ , $\Mu $ and $ \mu $                      | `M`, `\Mu` and `\mu`                              |
+| Nu                     | $ N $, $\Nu $,  and $ \nu$                    | `N`, `\Nu` and `\nu`                              |
+| Xi                     | $\Xi $ and $ \xi$                             | `\Xi` and `\xi`                                   |
+| Omicron                | $O $  and $ o$                                | `O` and `o`                                       |
+| Pi and Varpi           | $ \Pi $ , $ \pi $ and $ \varpi $              | `\Pi` and `\pi` also `\vapi`                      |
+| Rho $`P`$ and Varrho   | $P$ ,$\Rho $ , $ \rho $ and $ \varrho $       | `P`, `\Rho` and `\rho` also `\varrho`             |
+| Sigma and Varsigma     | $\Sigma $ , $ \sigma $  and  $\varsigma$      | `\Sigma` and `\sigma` also `\varsigma`            |
+| Tau                    | $\Tau $ and $ \tau $                          | `T`, `\Tau` and `\tau`                            |
+| Upsilon $`Y`$          | $ Y $ , $ \Upsilon $ and $ \upsilon $         | `Y`, `\Upsilon` and `\upsilon`                    |
+| Phi and Varphi         | $\Phi $, $ \phi $ and $ \varphi $             | `\Phi` and `\phi` also `\varphi`                  |
+| Chi                    | $ X$ , $\Chi $ and $ \chi$                    | `X`,`\Chi` and `chi`                              |
+| Psi                    | $\Psi $ and $\psi $                           | `\Psi` and `\psi`                                 |
+| Omega                  | $\Omega $ and $ \omega$                       | `\Omega` and `\omega`                             |
 
 ## Other symbols
 
-| Symbol name | Symbol     | Script     |
-| ----------- | ---------- | ---------- |
-| forall      | $\forall$  | `\forall`  |
-| in          | $\in$      | `\in`      |
-| quad        | $\quad$    | `\quad`    |
-| exists      | $\exists$  | `\exists`  |
-| geq         | $\geq$     | `\geq`     |
-| leq         | $\leq$     | `\leq`     |
-| partial     | $\partial$ | `\partial` |
-| eth         | $\eth$     | `\eth`     |
-| hbar        | $\hbar$    | `hbar`     |
-| imath       | $\imath$   | `imath`    |
-| jmath       | $\ell$     | `\ell`     |
-| re          | $\Re$      | `\Re`      |
-| Im          | $\Im$      | `\Im`      |
-| wp          | $\wp$      | `\wp`      |
-| nabla       | $\nabla$   | `\nabla`   |
-| Box         | $\Box$     | `\Box`     |
-| infinity    | $\infty$   | `\infty`   |
+| Symbol name            | Symbol      | Script     |
+| ---------------------- | ----------- | ---------- |
+| forall                 | $\forall$   | `\forall`  |
+| in                     | $\in$       | `\in`      |
+| quad (the white space) | $ a\quad b$ | `\quad`    |
+| exists                 | $\exists$   | `\exists`  |
+| geq                    | $\geq$      | `\geq`     |
+| leq                    | $\leq$      | `\leq`     |
+| partial                | $\partial$  | `\partial` |
+| eth                    | $\eth$      | `\eth`     |
+| hbar                   | $\hbar$     | `hbar`     |
+| imath                  | $\imath$    | `imath`    |
+| jmath                  | $\ell$      | `\ell`     |
+| re                     | $\Re$       | `\Re`      |
+| Im                     | $\Im$       | `\Im`      |
+| wp                     | $\wp$       | `\wp`      |
+| nabla                  | $\nabla$    | `\nabla`   |
+| Box                    | $\Box$      | `\Box`     |
+| infinity               | $\infty$    | `\infty`   |
